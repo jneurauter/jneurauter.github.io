@@ -54,22 +54,33 @@
           <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
             <section>
                 <h1>
-                  <span>HI THERE</span>
+                  <span>HI THERE,</span>
                   I’m Jackson Neurauter <br> SOFTWARE + SECURITY ENGINEER based in Atlanta, Georgia.
                 </h1>
                 <ul class="ds-numbervalulist">
+                  <!-- <li>
+                    <div class="ds-button-sec text-center">
+                      <a href="#skills" class="ds-button">Skills</a>
+                    </div>
+                  </li> -->
                   <li>
-                    <strong>4+</strong>
-                    <span>Experience</span>
+                    <div class="ds-button-sec text-center">
+                      <a href="#work-experience" class="ds-button">Experiences</a>
+                    </div>
+                    <!-- <strong>4</strong>
+                    <span>Experiences</span> -->
                   </li>
                   <li>
-                    <strong>7</strong>
-                    <span>Certifications</span>
+                    <div class="ds-button-sec text-center">
+                      <a href="#projects" class="ds-button">Projects</a>
+                    </div>
+                    <!-- <strong>7</strong>
+                    <span>Certifications</span> -->
                   </li>
-                  <li>
+                  <!-- <li>
                     <strong>#</strong>
                     <span>Projects</span>
-                  </li>
+                  </li> -->
                 </ul>
             </section>
           </div>
@@ -84,15 +95,15 @@
         <section>
             <h2 class="ds-heading">About Me</h2>
             <p>
-              I'm an undergraduate student pursuing a Computer Science degree with a focus in Cybersecurity and Artifical 
+              I'm an undergraduate student at Georgia Tech pursuing a Computer Science degree with a focus in Cybersecurity and Artifical 
               Intelligence. I have experience in both front end and back end development using an assortment of languages. 
-              Specifically, I have significant experience with java, python, C++, and HTML. With regard to Cybersecurity, 
+              Specifically, I have significant experience with Python, Java/Typescript, C/C++, and Java. With regard to Cybersecurity, 
               I have 7 certifications in the realm of the management and security of network and computer systems. 
               Current work consists of development of vehicle testing simulation software. I am interested in Machine 
               Learning, Network Security, and Automotive projects and research.
             </p>
             <div class="ds-button-sec text-center">
-                <a href="statics\docs\Jackson_Neurauter_Resume_5_17_24.pdf" download class="ds-button" target="_blank">Download Resume</a>
+                <a href="statics/docs/Jackson_Neurauter_Resume.pdf" download class="ds-button" target="_blank">Download Resume</a>
             </div>
         </section>
       </div>
@@ -104,26 +115,26 @@
       <div class="container">
         <div class="row">
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-             <h2 class="ds-heading">Core Languages</h2>
+             <h2 class="ds-heading" id="skills">Core Languages</h2>
              <ul class="ds-skills-list">
-               <li>Java</li>
                <li>Python</li>
+               <li>JavaScript/TypeScript</li>
                <li>C/C++</li>
+               <li>Java</li>
                <li>HTML/CSS</li>
-               <li>CSS</li>
-               <li>Git</li>
-               <li>JavaScript</li>
-               <li>Assembly</li>
                <li>Kotlin</li>
              </ul>
           </div>
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
             <h2 class="ds-heading">Other Skills</h2>
             <ul class="ds-skills-list">
+              <li>Git</li>
+              <li>React</li>
+              <li>Node.js</li>
               <li>Information Security</li>
               <li>Network Management</li>
-              <li>Automation</li>
-              <li>System Security</li>
+              <li>Azure DevOps</li>
+              <li>Docker</li>
             </ul>
           </div>
         </div>
@@ -134,21 +145,45 @@
    <!-- Experience -->
    <div class="ds-experience-section">
      <div class="container">
-        <h2 class="ds-heading">Work Experience</h2>
+        <h2 class="ds-heading" id="work-experience">Recent Work Experience</h2>
         <div class="row ds-experience-list">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+              <section>
+                <span class="ds-year">May 2025 - August 2025</span>
+                <h3 class="ds-officename">Viasat - Secure Network Systems Division</h3>
+                <span class="ds-department">Software Engineer Intern</span>
+                <ul>
+                  <li>Developed and deployed features for a customer-facing tool that streamlines the management of Inline
+                  Network Encryptors (INEs), enhancing usability and simplifying maintenance for enterprise clients.</li>
+                  <li>Contributed scalable backend code using reactive programming with the Spring Framework to enable
+                  asynchronous handling of feature-based INE configurations. Rebuilt and modernized an internal tool,
+                  integrating it into the backend to automate the license generation and transfer processes.</li>
+                  <li>Designed and implemented intuitive UI flows with React and Redux to automate customer-initiated
+                  license transfers between devices, replacing a multi-step manual process requiring Product Support,
+                  and incorporating cursor pagination and virtualization to optimize queries and improve responsiveness.</li>
+                  <li>Presented the final project overview to corporate headquarters and branches, allowing all employees to
+                  see tool enhancements and the resulting time-saving benefits for the Product Support team.</li>
+                </ul>
+              </section>
+            </div>
             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
               <section>
                 <span class="ds-year">May 2024 - August 2024</span>
                 <h3 class="ds-officename">Global Center for Automotive Performance Simulation</h3>
                 <span class="ds-department">Software Engineer Intern</span>
                 <ul>
-                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis sem maximus, ornare metus ut.</li>
-                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                  <li>Built proprietary web-based tools and dashboards by integrating frontend/backend technologies to
+                  support test engineers and data analysts. Delivered intuitive, mulit-functional UIs to streamline data
+                  input/output, equipment monitoring, and scan processing in a dynamic testing environment.</li>
+                  <li>Improved automation and system integration by developing custom RESTful APIs to connect digital
+                  tools and measurement devices. Implemented a implemented a CI/CD pipeline to automate testing,
+                  building, and deployment, accelerating development workflows and reducing manual overhead.</li>
+                  <li>Collaborated with leadership and engineering teams, providing routine progress updates and delivering
+                  formal mid and end-term reports to ensure transparency and timely execution.</li>
                 </ul>
               </section>
             </div>
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+            <!-- <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
               <section>
                 <span class="ds-year">February 2023 - May 2023</span>
                 <h3 class="ds-officename">Virginia Polytechnic Institute & State University, Department of Computer Science</h3>
@@ -159,7 +194,7 @@
                   <li>Presented our model at Virginia Tech’s ICAT Day, which won the People’s Choice Award</li>
                 </ul>
               </section>
-            </div>
+            </div> -->
         </div>
      </div>
    </div>
@@ -168,19 +203,22 @@
    <!--  Work -->
    <div class="ds-work-section">
      <div class="container">
-          <h2 class="ds-heading">Latest works</h2>
+          <h2 class="ds-heading" id="projects">Latest Projects</h2>
           <div class="ds-work-list-section">
             <div class="ds-work-list">
               <div class="row">
                   <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
                       <section>
-                          <h3 class="ds-work-tilte">Tripy mobile app</h3>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis sem maximus, ornare metus ut, congue enim. Sed fermentum nulla tellus, quis efficitur mauris tristique efficitur. Aliquam rhoncus sem sed ullamcorper venenatis. Aenean malesuada eu orci non sodales. </p>
-                          <a href="works-setails.html" class="ds-button">Details</a>
+                          <h3 class="ds-work-tilte">Spotify Wrapped Anytime</h3>
+                          <p>A Spotify-integrated web app that lets users log in to their Spotify account and view their Spotify Wrapped anytime.
+                             The app displays users’ top artists and tracks, allows filtering by time range and result count, and features 
+                             light/dark mode, multi-language support, and Spotify playback integration. Users can also save and manage custom
+                              wraps, making it a fun, personalized way to explore their listening habits year-round.</p>
+                          <a href="anytime-wrapped.html" class="ds-button" style="margin-bottom: 15px;">Details</a>
                       </section>
                   </div>
                   <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
-                      <figure><img src="statics/images/work-1.jpg"></figure>
+                      <figure><img src="statics/images/spotify-1.jpg"></figure>
                   </div>
               </div>
             </div>
@@ -188,17 +226,19 @@
               <div class="row">
                   <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
                       <section>
-                          <h3 class="ds-work-tilte">Hello mobile app</h3>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis sem maximus, ornare metus ut, congue enim. Sed fermentum nulla tellus, quis efficitur mauris tristique efficitur. Aliquam rhoncus sem sed ullamcorper venenatis. Aenean malesuada eu orci non sodales. </p>
-                          <a href="works-setails.html" class="ds-button">Details</a>
+                          <h3 class="ds-work-tilte">Atlanta Food Finder</h3>
+                          <p>A Yelp-inspired web app that helps users discover the top-rated restaurants in Atlanta. Users can search by
+                             name, cuisine, or location, apply filters, and favorite restaurants to save them in their profile. Built
+                              with Django authentication, the platform offers a personalized and seamless dining search experience.</p>
+                          <a href="atl-food-finder.html" class="ds-button" style="margin-bottom: 15px;">Details</a>
                       </section>
                   </div>
                   <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
-                      <figure><img src="statics/images/work-2.jpg"></figure>
+                      <figure><img src="statics/images/aff-1.jpg"></figure>
                   </div>
               </div>
             </div>
-            <div class="ds-work-list">
+            <!-- <div class="ds-work-list">
               <div class="row">
                   <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
                       <section>
@@ -211,14 +251,14 @@
                        <figure><img src="statics/images/work-3.jpg"></figure>
                   </div>
               </div>
-            </div>
+            </div> -->
           </div>
      </div>
    </div>
    <!--  Work -->
 
    <!--  footer -->
-   <footer class="ds-footer text-center">
+   <!-- <footer class="ds-footer text-center">
      <div class="container">
         <section>
           <span>Stay in touch</span>
@@ -227,7 +267,7 @@
           <a href="mailto:jacksonneurauter@gmail.com" class="ds-button">Lets Talk</a>
         </section>
      </div>
-   </footer>
+   </footer> -->
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
